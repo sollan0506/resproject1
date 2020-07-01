@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang='ko'>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+ 
+  <title>Alia Corns Web Project</title>
+ 
+  
+  <!-- My CSS -->
+  <link rel='stylesheet' href='../css/lib.css'>
+  <link rel='stylesheet' href='../css/main.css'>
+
+  <style>
+    .container{padding: 105px 0 ;}
+
+    @media screen and (min-width: 1170px){
+      .container{width: 1170px; }
+      #works #gallery>div{
+        width: 23%; margin: 0 1% 2%;
+      }
+    }
+  </style>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+ 
+</head>
+<body onload="initialize()">
+ 
+  <!-- Navi Area Start -->
+  <nav class='navbar navbar-default navbar-fixed-top' id="navi">
+  <div class='container'>
+   
+   
+    <!-- Brand and mobile Button display -->
+    <div class='navbar-header'>
+   
+    <!-- Mobile Button Start -->
+    <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#gnb'>
+      <span class='sr-only'>Toggle navigation</span>
+      <span class='icon-bar'></span>
+      <span class='icon-bar'></span>
+      <span class='icon-bar'></span>
+    </button>
+   
+    <!-- Site Logo Start -->
+    <h1>
+      <a href='#intro'><span>Alia</span> Corns</a>
+    </h1>
+   
+    </div>
+   
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class='collapse navbar-collapse' id='gnb'>
+   
+    <ul class='nav navbar-nav navbar-right'>
+      <li><a href='#intro'>HOME</a></li>
+      <li><a href='#about'>ABOUT</a></li>
+      <li><a href='#team'>TEAM</a></li>
+      <li><a href='#service'>SERVICE</a></li>
+      <li><a href='#skill'>SKILL</a></li>
+      <li><a href='#works'>WORKS</a></li>
+      <li><a href='#banner'>BANNER</a></li>
+      <li><a href='#contact'>CONTACT</a></li>
+    </ul>
+   
+  </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </nav>
+
+
+  <!-- Intro Area Start -->
+  <div id="intro">
+    
+    <!-- Title Box Area Start -->
+    <div class="title-box">
+      <h2 class="animated fadeInUp">Create Web Developement</h2>
+      <p class="animated fadeInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores animi debitis consectetur consequatur incidunt quidem molestiae. Molestias ullam quis,laudantium sapiente eaque. Deleniti consequuntur accusantium nesciunt sapiente voluptate. Nam, unde.</p>
+    </div>
+
+    <!-- Video Box Area Start -->
+    <div class="covervid-wrapper">
+      <video class="covervid-video" autoplay muted loop poster="../video/poster.png">
+          <source src="../video/video.mp4" type="video/mp4">
+      </video>
+    </div>
+
+  </div>
+
+
+  <!-- About Area Start -->
+  <div id="about">
+    <div class="container">
+
+      <!-- Title Area Start -->
+      <div class="row">
+        <div class="col-xs-12 title">
+          <h2>SOME WORDS <span>ABOUT US</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis id esse, itaque alias.</p>
+        </div>
+      </div>
+
+      <!-- Content Area Start -->
+      <div class="row content">
+
+        <!-- left-box Area Start -->
+        <!-- 분기점에 따라 어떨떈 full로 쓰고 어떨땐 7:5로 쓰고를 달리해줌 -->
+        <div class="col-sm-12 col-md-7 left-box wow fadeInLeft">
+          <img src="../images/lg/about-img.png" alt="사무실 사진"
+            data-sizes="xl, l, m, s, xs"
+            data-srcset="
+              ../images/lg/about-img.png,
+              ../images/lg/about-img.png,
+              ../images/lg/about-img.png,
+              ../images/sm/about-img.png,
+              ../images/xs/about-img.png
+            ">
+        </div>
+
+        <!-- right-box Area Start -->
+        <div class="col-sm-12 col-md-5 right-box wow fadeInRight">
+          <h3>WHY WE ARE <span>THE BEST</span></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus rerum dicta, hic illum aliquid. Ullam corporis dolor accusantium reprehenderit tempore.</p>
+
+          <ul>
+            <li><strong>Mission</strong> - We deliver uniqueness and quality</li>
+            <li><strong>Skills</strong> - Delivering fast and excellent results</li>
+            <li><strong>Clients</strong> - Satisfied clients thanks to our experience</li>
+          </ul>
+
+          <a href="#" class="btn btn-success">BROWSE OUR WORKS</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Team Area Start -->
+  <div id="team">
+    <div class="container">
+
+      <!-- Title Area Start -->
+      <div class="row">
+        <div class="col-xs-12 title">
+          <h2>MEET <span>OUR AWESOME TEAM</span></h2>
+        </div>
+      </div>
+
+      <!-- Content Area Start -->
+      <div class="row content">
+        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.1s">
+          <img src="../images/lg/team-img1.png" alt="멤버이미지1">
+          <div class="sns-group">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+          <div class="job">Anthony Doe <span>Web Designer</span></div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
+          <img src="../images/lg/team-img2.png" alt="멤버이미지2">
+          <div class="sns-group">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+          <div class="job">Marshall Doe <span>Lead Developer</span></div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="1.6s">
+          <img src="../images/lg/team-img3.png" alt="멤버이미지3">
+          <div class="sns-group">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+          <div class="job">Nick Everdeen <span>SEO spectialist</span></div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="2.4s">
+          <img src="../images/lg/team-img4.png" alt="멤버이미지4">
+          <div class="sns-group">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+          <div class="job">Paul Shepherd <span>Web Designer</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Service Area Start -->
+  <div id="service">
+    <div class="container">
+
+      <!-- Title Area Start -->
+      <div class="row">
+        <div class="col-xs-12 title">
+          <h2>TAKE A LOOK AT <span>OUR SERVICES</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis id esse, itaque alias.</p>
+        </div>
+      </div>
+
+      <!-- Content Area Start -->
+      <div class="row content">
+        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInRight" data-wow-delay="0.5s">
+          <i class="fa fa-desktop" aria-hidden="true"></i>
+          <h3>Web Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, tempore.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInRight" data-wow-delay="1s">
+          <i class="fa fa-code" aria-hidden="true"></i>
+          <h3>Web Development</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, tempore.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInRight" data-wow-delay="1.5s">
+          <i class="fa fa-paint-brush" aria-hidden="true"></i>
+          <h3>Graphic Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, tempore.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInRight" data-wow-delay="2s">
+          <i class="fa fa-building" aria-hidden="true"></i>
+          <h3>Architecture</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, tempore.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInRight" data-wow-delay="2.5s">
+          <i class="fa fa-camera" aria-hidden="true"></i>
+          <h3>Photography</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, tempore.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInRight" data-wow-delay="3s">
+          <i class="fa fa-android" aria-hidden="true"></i>
+          <h3>App Development</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, tempore.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInRight" data-wow-delay="3.5s">
+          <i class="fa fa-pencil" aria-hidden="true"></i>
+          <h3>Interior Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, tempore.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInRight" data-wow-delay="4s">
+          <i class="fa fa-laptop" aria-hidden="true"></i>
+          <h3>Ethical Hacking</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, tempore.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Skill Area Start -->
+  <div id="skill">
+    <div class="container">
+
+      <!-- Title Area Start -->
+      <div class="row">
+        <div class="col-xs-12 title">
+          <h2>SEE <span>OUR SKILLS</span></h2>
+        </div>
+      </div>
+
+      <!-- Content Area Start -->
+      <div class="row content">
+        <div class="col-xs-12 col-sm-6 col-md-3 wow bounceIn" data-wow-delay="0.1s">
+          <h3>HTML5</h3>
+          <div class="circle circle1"><strong></strong></div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 wow bounceIn" data-wow-delay="0.7s">
+          <h3>CSS3</h3>
+          <div class="circle circle2"><strong></strong></div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 wow bounceIn" data-wow-delay="1.4s">
+          <h3>JAVASCRIPT</h3>
+          <div class="circle circle3"><strong></strong></div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 wow bounceIn" data-wow-delay="2.1s">
+          <h3>JQUERY</h3>
+          <div class="circle circle4"><strong></strong></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Works Area Start -->
+  <div id="works">
+    <div class="container">
+
+      <!-- Title Area Start -->
+      <div class="row">
+        <div class="col-xs-12 title">
+
+          <h2>TAKE A LOOK AT <span>OUR WORKS</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis id esse, itaque alias.</p>
+
+          <div class="gmenu">
+            <ul>              
+              <li><a href="#" id="m1" class="menu-act">Show All</a></li>
+              <li><a href="#" id="m2">Developement</a></li>
+              <li><a href="#" id="m3">Photography</a></li>
+              <li><a href="#" id="m4">Design</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      
+      <!-- Content Area Start -->
+      <div class="row content">
+        <div class="col-xs-12">
+
+          <div class="grid" id="gallery">
+            <div class="grid-item g1 wow fadeIn" data-wow-delay="0.2s">
+              <a href="../images/gallery-big/work1.jpg">
+                <img src="../images/lg/photo1-off.jpg" alt="Photo1">
+              </a>
+            </div>
+            <div class="grid-item g2 wow fadeIn" data-wow-delay="0.7s">
+              <a href="../images/gallery-big/work2.jpg">
+                <img src="../images/lg/photo2-off.jpg" alt="Photo2">
+              </a>
+            </div>
+            <div class="grid-item g3 wow fadeIn" data-wow-delay="1.4s">
+              <a href="../images/gallery-big/work3.jpg">
+                <img src="../images/lg/photo3-off.jpg" alt="Photo3">
+              </a>
+            </div>
+            <div class="grid-item g1 wow fadeIn" data-wow-delay="2.1s">
+              <a href="../images/gallery-big/work4.jpg">
+                <img src="../images/lg/photo4-off.jpg" alt="Photo4">
+              </a>
+            </div>
+            <div class="grid-item g2 wow fadeIn" data-wow-delay="2.8s">
+              <a href="../images/gallery-big/work5.jpg">
+                <img src="../images/lg/photo5-off.jpg" alt="Photo5">
+              </a>
+            </div>
+            <div class="grid-item g3 wow fadeIn" data-wow-delay="3.5s">
+              <a href="../images/gallery-big/work6.jpg">
+                <img src="../images/lg/photo6-off.jpg" alt="Photo6">
+              </a>
+            </div>
+            <div class="grid-item g1 wow fadeIn" data-wow-delay="4.2s">            
+              <a href="../images/gallery-big/work7.jpg">
+                <img src="../images/lg/photo7-off.jpg" alt="Photo7">
+              </a>
+            </div>
+            <div class="grid-item g2 wow fadeIn" data-wow-delay="4.8s">
+              <a href="../images/gallery-big/work8.jpg">
+                <img src="../images/lg/photo8-off.jpg" alt="Photo8">
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Banner Area Start -->
+  <div id="banner" class="jarallax">
+    <div class="container title">
+
+      <h2>CLIENTS LOVE <span>OUR WORKS</span></h2>
+      <div class="img-box">
+        <img src="../images/lg/banner-img.png" alt="배너 이미지">
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ut, odit odio reiciendis possimus blanditiis fugiat temporibus est delectus, rem accusantium tempora, officiis id earum laudantium repellendus molestiae unde nobis.</p>
+      <div class="name-box">
+        Robert Cool <span>CEO Smart Soft Group</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Google Map -->
+  <div id="map_canvas"></div>
+
+  <!-- Contact Area Start -->
+  <div id="contact">
+    <div class="container">
+
+      <!-- Title Area Start -->
+      <div class="row">
+        <div class="col-xs-12 title">
+          <h2>FEEL FREE TO <span>CONTACT US</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      
+      <!-- Content Area Start -->
+      <div class="row content">
+        <div class="col-xs-12">
+
+          <!-- Form Area Start -->
+          <form action="">
+            <div>
+              <div class="form-group wow fadeIn" data-wow-delay="0.2s">
+                <label for="input_name">Name :</label> 
+                <input type="text" name="name" id="input_name" placeholder="Your Name">
+              </div>
+              <div class="form-group wow fadeIn" data-wow-delay="0.7s">
+                <label for="input_phone">Phone :</label> 
+                <input type="tel" name="phone" id="input_phone" placeholder="Your Phone">
+              </div>
+              <div class="form-group wow fadeIn" data-wow-delay="1.4s">
+                <label for="input_mail">E-Mail :</label> 
+                <input type="mail" name="email" id="input_mail" placeholder="Your Mail">
+              </div>
+            </div>
+            <div class="form-group wow fadeIn" data-wow-delay="2s">
+              <label for="">Message :</label> 
+              <textarea name="message" id="input_msg" cols="40" rows="3"></textarea>
+            </div>
+            <p><input type="submit" value="SUBMIT" id="input_submit"></p>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Footer Area Start -->
+  <div id="footer">
+    <div class="container">
+
+      <!-- SNS-Group -->
+      <div class="sns-group">
+        <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+      </div>
+
+      <!-- Copyright -->
+      <p>Copyright &copy; 2020 ABC.com . All Rights Reserved.</p>
+
+    </div>
+  </div>
+
+ 
+ 
+ 
+  <!-- jQuery JS -->
+  <script src='../js/jquery-1.9.1.min.js'></script>
+  <script src='../js/lib.js'></script>
+  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <script src='../js/main.js'></script>
+ 
+ 
+</body>
+</html>
